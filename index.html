@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang"en">
+    <head><title>
+Backtracking By SRF SNZ</title>
+    </head>
+    <body>
+        <h1>
+            Backtracking
+        </h1>
+    <marquee>
+          <h4>Design By SNZ SRF</h4>  
+        </marquee>
+        <p>
+            Copyright ©<sub>2002</sub> by <sup>David</sup> Matuszek
+        </p>
+        <p>
+            <b>Backtracking</b> is a form of recursion.
+        </p>
+        <p>
+            The usual <em>scenario</em> is <b>that</b> you are <i>faced</i> with a <strong>number of options</strong>, and you must choose one of these.</br> After you make your choice you will get a new set of options; just what set of options you get depends on what choice you made. This procedure is repeated over and over until you reach a final state. If you made a good sequence of choices, your final state is a goal state; if you didn't, it isn't.
+        </p>
+        <p>
+            Conceptually,10<sup>th</sup> <sub>2021</sub> you start at the <ins>root</ins> of a tree; the tree <del>probably</del> has some good <strike>leaves and some bad leaves</strike>, though it may be that the leaves are all good or all bad. You want to get to a good leaf. At each node, beginning with the root, you choose one of its children to move to, and you keep this up until you get to a leaf.
+        </p>
+        <center>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ZNPFDk3pPo8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </center>
+        <p>
+            <hr/>
+            This needs an example.
+        </hr>
+        </p>
+        <center>
+        <img src="treesearch.gif"/>
+        </br>
+        <hr>
+        <img src="photesnz.jpg" height="200" width="400"/>
+        </hr>
+        </center>
+        <ol>
+            <li>
+                Starting at Root, your options are A and B. You choose A.
+            </li>
+            <li>
+                At A, your options are C and D. You choose C.
+            </li>
+            <li>
+                C is bad. Go back to A.
+            </li>
+        </ol>
+        <ul><b>
+            <li>
+                At A, you have already tried C, and it failed. Try D.
+            </li>
+            <li>
+                D is bad. Go back to A.
+            </li>
+            </b>
+        </ul>
+        <center>
+        <iframe src="https://www.seesarkariresult.com" scrolling="auto" frameborder="2" height="300" width="800"  ></iframe>
+        </center>
+        <pre>
+            boolean solve(Node n) {
+                if n is a leaf node {
+                    if the leaf is a goal node, return true
+                    else return false
+                } else {
+                    for each child c of n {
+                        if solve(c) succeeds, return true
+                    }
+                    return false
+                }
+            }
+        </pre>
+        <pre>
+        int main() {
+            int a;
+            int b;
+            int sum = a+b;
+        }
+        </pre>
+        <a href="https://www.seesarkariresult.com/">Go To See Sarkari Result</a>
+        </br>
+        <a href="author\author.html">About the author</a>
+        
+        <table border="2px" align="center" cellpadding="10px" cellspacing="10px">
+        <thead><tr align="center">
+            <th> </th>
+            <th>2 by 3 map</th>
+            <th>3 by 3 map</th>
+            <th>3 by 4 map</th>
+            </tr>
+        </thead>  
+        <tbody>
+            <tr align="center">
+                <td>Method 1:</td>
+                <td colspan="2"> 60 ms. </td>
+                <td>940 ms.</td>
+                <td>950 ms.</td>
+            </tr>
+        
+            <tr align="center">
+                <td>Method 2:</td>
+                <td>2</td>
+                <td colspan="2">3</td>
+                <td>Test Failed</td>
+            </tr>
+          </tbody>
+        </table>
+        </br>
+        
+        <table border="1px" align="center">
+            <thead>
+                <tr>
+                <th rowspan="2">Heading 1</th>
+                <th>Heading 2</th>
+                <th rowspan="2">Heading 3</th>
+                </tr>
+                <tr>
+                    <th>Subheading1</th>
+                </tr>
+            </thead>
+        </table>
+    </body>
+</html>
