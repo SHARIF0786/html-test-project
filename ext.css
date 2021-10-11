@@ -22,3 +22,11 @@ lebel{
 #sitename{
     font-size: 40px;
 }
+.class{
+    border: black solid;
+    text-decoration-line: line-through;
+}
+.butt1{
+    font-weight: 900; 
+font-style: italic;
+}
