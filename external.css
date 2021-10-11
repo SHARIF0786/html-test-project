@@ -1,6 +1,14 @@
-body{
+/* External CSS */
+ul{
     background-color: darkblue;
 }
-p{
-    background-color: darkgreen;
+ol{
+    background-color: darkorange;
+}
+pre{
+    background-color: lawngreen;
+    color: whitesmoke;
+}
+h1{
+    color: orangered;
 }

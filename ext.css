@@ -1,0 +1,24 @@
+/* external css */
+lebel{
+    /* color: rgb(255, 255, 78) !important; */
+}
+#password2{
+    color: rgb(243, 0, 0);
+    font-size: 50px;
+}
+#checkbox{
+    color: rgb(250, 246, 8);
+}
+
+.sure{
+    color: rgb(0, 140, 255) !important;
+    background-color: rgb(250, 246, 8);
+    font-family: fantasy;
+}
+.fontType{
+    font-size: 40px;
+}
+
+#sitename{
+    font-size: 40px;
+}
