@@ -1,6 +1,6 @@
 /* external css */
 lebel{
-    color: rgb(255, 255, 78) !important;
+    color: rgb(255, 255, 78) 
 }
 #password2{
     color: rgb(243, 0, 0);
@@ -29,4 +29,69 @@ lebel{
 .butt1{
     font-weight: 900; 
 font-style: italic;
+border-radius: 20px;
+}
+
+.name{
+    border: black solid;
+    height: 300px;
+    background-image: linear-gradient()
+    
+}
+.redcolor{
+    color: red !important;  
+    font-family: 'cursive';
+    font-size: 20px;
+    background-color: cyan;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration-line: line-through;
+    text-decoration-color: antiquewhite;
+    text-decoration-style: wavy;
+    margin-top: 30px;
+    border-radius: 20px;
+    border-style: dotted;
+    margin: 10px 25px 40px 30px;
+  }
+.ptag{
+    background: tomato;
+    margin-left: 30px;
+    margin-top: 30px;
+    height: 300px;
+    border: #d71010;
+    border-style: solid;    
+    width: 300px;
+    background-image: url(logo.png);
+
+}
+.image1{
+    background-image: url(logo.png);
+    height: 300px;
+    width: 50%;
+}
+.order{
+    border-radius: 10px;
+    border-collapse: separate;
+    border-style: dotted;
+}
+#website{
+    border-radius: 50px;
+    border-style: dashed;
+}
+.simple{
+    /* border: red;
+    border-style:dotted;
+    border-width: 20px; */
+    /* ek sath me ye tino */
+    border: 20px dashed red;
+    margin: 10px 20px 30px 20px;
+    padding: 10px;
+    text-align: center;
+}
+.submit{
+    border: deeppink;
+    border-radius: 20px;
+    border-width: 10px;
+    border-style: solid;
+    font-size: 25px;
 }
