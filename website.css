@@ -78,3 +78,29 @@ img{
     width: 31%;
     margin-bottom: 1em;
 }
+
+#section-c{
+    background: #fffefe;
+    color: #333;
+    padding: 0 2em 0 2em;
+}
+
+#section-d{
+    display: flex;
+}
+#section-d .box{
+    padding: 1em;
+}
+#section-d .box:first-child{
+   background: skyblue;
+}
+
+#footer{
+    background: black;
+    color: #fff;
+    display: flex;
+    padding: 2em;
+}
+#footer div:last-child{
+    margin-left: auto;
+}
